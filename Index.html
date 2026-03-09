@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James & Lovelyn Nig. Ltd. – Premium Palm & Kernel Products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- ═══ NAVBAR ═══════════════════════════════════════════ -->
+    <nav>
+      <a class="nav-logo" href="#">
+        <img src="./assets/images/logo.png" alt="logo"  class="logo">
+        <span>James & Lovelyn Nig. Ltd.</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">About Us</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#process">Sustainability</a></li>
+        <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#">Home</a>
+      <a href="#products">About Us</a>
+      <a href="#products">Our Products</a>
+      <a href="#process">Sustainability</a>
+      <a href="#contact" class="btn-contact">Contact Us</a>
+    </div>
+
+    <!-- ═══ HERO ══════════════════════════════════════════════ -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <svg
+        class="hero-leaf"
+        viewBox="0 0 400 600"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M200 580 Q150 400 80 200 Q40 100 100 20 Q180 100 220 280 Q260 440 200 580Z"
+          fill="white"
+        />
+        <path
+          d="M200 580 Q260 380 340 180 Q380 80 300 10 Q220 100 190 300 Q160 460 200 580Z"
+          fill="white"
+        />
+      </svg>
+      <div class="hero-content">
+        <div class="hero-tag">🌿 Trusted Since 2018</div>
+        <h1>Premium Palm &amp;<br />Kernel Products</h1>
+        <p>Your Trusted Partner in the Palm Industry</p>
+        <div class="hero-btns">
+          <a href="#products" class="btn btn-green">Our Products</a>
+          <a href="#contact" class="btn btn-orange">Get a Quote</a>
+        </div>
+      </div>
+      <div class="scroll-arrow"><span></span><span></span></div>
+    </section>
+
+    <!-- ═══ PRODUCTS ══════════════════════════════════════════ -->
+    
+<section class="products-section">
+  <p class="section-label">What We Offer</p>
+  <h2 class="section-title">Our Product Range</h2>
+
+  <div class="slider-shell">
+    <!-- Prev -->
+    <button class="slider-btn prev" aria-label="Previous">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+    </button>
+
+    <div class="slider-viewport">
+      <div class="slider-track" id="sliderTrack">
+
+        <!-- Card 1 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="./assets/images/banga_clearoil.jpg" alt="Palm Oil" loading="lazy"/>
+          </div>
+          <div class="card-accent"></div>
+          <div class="product-body">
+            <h3>Palm Oil</h3>
+            <p>High-quality, pure and natural palm oil for various food, industrial and cosmetic applications.</p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="./assets/images/palmoil3.jpg" alt="Palm Kernel Oil" loading="lazy"/>
+          </div>
+          <div class="card-accent"></div>
+          <div class="product-body">
+            <h3>Palm Kernel Oil</h3>
+            <p>Pure, richly colored red palm oil — naturally processed for premium food applications and trusted export quality.</p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="./assets/images/palm-kernel-cake-cattle-feed-500x500.webp" alt="Palm Kernel Cake" loading="lazy"/>
+          </div>
+          <div class="card-accent"></div>
+          <div class="product-body">
+            <h3>Palm Kernel Cake</h3>
+            <p>Nutritious palm kernel cake for animal feed, a high-protein by-product of palm kernel oil extraction.</p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="./assets/images/palm_sludge2.jpg" alt="Crude Palm Sludge" loading="lazy"/>
+          </div>
+          <div class="card-accent"></div>
+          <div class="product-body">
+            <h3>Crude Palm Sludge</h3>
+            <p>Quality palm sludge suitable for industrial processing and export.</p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="./assets/images/palm-kernel-nuts1.jpg" alt="Palm Kernel Nuts" loading="lazy"/>
+          </div>
+          <div class="card-accent"></div>
+          <div class="product-body">
+            <h3>Palm Kernel Nuts</h3>
+            <p>Premium-quality palm kernel nuts sourced from carefully selected palm fruits. Ideal for producing high-grade palm kernel oil.</p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img class="product-img" src="./assets/images/palm-kernel-shells.jpg" alt="Palm Kernel Shells (PKS)" loading="lazy"/>
+          </div>
+          <div class="card-accent"></div>
+          <div class="product-body">
+            <h3>Palm Kernel Shells</h3>
+            <p>High-quality palm kernel shells used as a renewable biomass fuel and for industrial energy generation. Clean and export-ready.</p>
+            <a href="#" class="btn-learn">Learn More</a>
+          </div>
+        </div>
+
+      </div><!-- /track -->
+    </div><!-- /viewport -->
+
+    <!-- Next -->
+    <button class="slider-btn next" aria-label="Next">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </button>
+  </div><!-- /shell -->
+
+  <!-- Progress bar -->
+  <div class="slider-progress-wrap">
+    <div class="slider-progress-bg">
+      <div class="slider-progress-fill" id="progressFill"></div>
+    </div>
+  </div>
+
+  <!-- Dots -->
+  <div class="slider-dots" id="sliderDots"></div>
+</section>
+    <!-- ═══ WHY CHOOSE US ════════════════════════════════════ -->
+    <section class="why-section">
+      <p class="section-label reveal">Our Advantage</p>
+      <h2 class="section-title reveal">Why Choose Us?</h2>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon icon-green">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2e6b35"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3>Sustainable Sourcing</h3>
+          <p>
+            Ethically sourced and environmentally friendly practices that
+            protect our planet for future generations.
+          </p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon icon-amber">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#c85c1a"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+          </div>
+          <h3>Quality Assurance</h3>
+          <p>
+            Strict quality control processes at every stage to ensure
+            consistently top-grade products.
+          </p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon icon-blue">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#1a6b9e"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              />
+            </svg>
+          </div>
+          <h3>Global Distribution</h3>
+          <p>
+            Reliable supply chain infrastructure supplying markets across
+            Africa, Asia, Europe and the Americas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ STATS ═════════════════════════════════════════════ -->
+    <div class="stats-strip">
+      <div class="stat-item reveal">
+        <h4>25+</h4>
+        <p>Years of Experience</p>
+      </div>
+      <div class="stat-item reveal">
+        <h4>40+</h4>
+        <p>Countries Supplied</p>
+      </div>
+      <div class="stat-item reveal">
+        <h4>500K</h4>
+        <p>Tons Produced Annually</p>
+      </div>
+      <div class="stat-item reveal">
+        <h4>99%</h4>
+        <p>Client Satisfaction</p>
+      </div>
+    </div>
+
+    <!-- ═══ PROCESS ═══════════════════════════════════════════ -->
+    <section class="process-section" id="process">
+      <p class="section-label reveal">How We Work</p>
+      <h2 class="section-title reveal">From Plantation to Production</h2>
+      <p class="process-subtitle reveal">
+        We handle the entire process from harvesting to final product delivery.
+      </p>
+
+      <div class="process-grid">
+        <div class="process-card reveal">
+          <img
+            src="./assets/images/POP3.webp"
+            alt="Harvesting"
+            loading="lazy"
+          />
+          <div class="process-card-label">
+            <div class="process-step">1</div>
+            <h3>Harvesting</h3>
+          </div>
+        </div>
+
+        <div class="process-card reveal">
+          <img
+            src="./assets/images/palm-oil-production-line-factory1.jpg"
+            alt="Processing"
+            loading="lazy"
+          />
+          <div class="process-card-label">
+            <div class="process-step">2</div>
+            <h3>Processing</h3>
+          </div>
+        </div>
+
+        <div class="process-card reveal">
+          <img
+            src="./assets/images/refinedpalmoil.jpg"
+            alt="Refining & Packaging"
+            loading="lazy"
+          />
+          <div class="process-card-label">
+            <div class="process-step">3</div>
+            <h3>Refining &amp; Packaging</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══════════════════════════════════════════ -->
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+        <p class="section-label reveal">Get In Touch</p>
+        <h2 class="section-title reveal">Find Us</h2>
+        <p class="lead reveal">
+          We'd love to hear from you. Visit our office or reach out through any
+          of the channels below.
+        </p>
+
+        <div class="contact-layout reveal">
+          <!-- Company Details -->
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <h4>Our Address</h4>
+                <p>
+                  2, Odionwere Street, Okonpon-Obaretin, Off Iguobazuwa Road,
+                  Okada Junction<br />Benin City, Edo State, Nigeria
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.47 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+2348066322301">+234 806 632 2301</a></p>
+                <p><a href="tel:+2347026437206">+234 702 643 7206</a></p>
+                <p><a href="tel:+2348138865360">+234 813 886 5360</a></p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:info@jamesandlovelyn.com"
+                    >info@jamesandlovelyn.com</a
+                  >
+                </p>
+                <p>
+                  <a href="mailto:export@jamesandlovelyn.com"
+                    >export@jamesandlovelyn.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h4>Business Hours</h4>
+                <p>Monday – Saturday: 8:00am – 6:00pm</p>
+                <p>Saturday: 9:00am – 2:00pm</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3963.1!2d5.5709945!3d6.3545625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s2%2C%20Odionwere%20Street%2C%20Okonpon-Obaretin%2C%20Off%20Iguobazuwa%20Road%2C%20Okada%20Junction%2C%20Benin%20City%2C%20Edo%20State%20Nigeria!5e0!3m2!1sen!2sng!4v1700000000000"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="James & Lovely Nig. Ltd. - 2 Odionwere Street, Benin City">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="nav-logo" href="#">
+             <img src="./assets/images/logo.png" alt="logo"  class="logo">
+            <span>James & Lovelyn Nig. Ltd.</span>
+          </a>
+          <p>
+            Your trusted partner in premium palm and kernel products. Supplying
+            the world with quality, sustainably-sourced palm oil products since
+            2018.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#products">Our Products</a></li>
+            <li><a href="#process">Sustainability</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul>
+            <li>
+              <a href="mailto:info@jamesandlovely.com"
+                >info@jamesandlovelyn.com</a
+              >
+            </li>
+            <li><a href="tel:+2348066322301">+234 806 632 2301</a></li>
+            <li><a href="#">Edo, Nigeria</a></li>
+            <li><a href="#">Mon–Sat.: 8am – 6pm</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span
+          >&copy; 2026 James &amp; Lovelyn Nig. Ltd. All rights reserved.</span
+        >
+        <span>
+          <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp;
+          <a href="#">Terms of Use</a>
+        </span>
+      </div>
+    </footer>
+
+    <!-- ═══ JS ════════════════════════════════════════════════ -->
+    <script>
+      // ── Hamburger menu ──────────────────────────────────────
+      const burger = document.getElementById("hamburger");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      burger.addEventListener("click", () => {
+        burger.classList.toggle("open");
+        mobileMenu.classList.toggle("open");
+      });
+
+      mobileMenu.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => {
+          burger.classList.remove("open");
+          mobileMenu.classList.remove("open");
+        });
+      });
+
+      // ── Scroll reveal ───────────────────────────────────────
+      const revealEls = document.querySelectorAll(".reveal");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry, i) => {
+            if (entry.isIntersecting) {
+              entry.target.style.transitionDelay = (i % 4) * 0.1 + "s";
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+      revealEls.forEach((el) => observer.observe(el));
+
+      (function () {
+    const track      = document.getElementById('sliderTrack');
+    const dotsWrap   = document.getElementById('sliderDots');
+    const progress   = document.getElementById('progressFill');
+    const btnPrev    = document.querySelector('.slider-btn.prev');
+    const btnNext    = document.querySelector('.slider-btn.next');
+    const cards      = Array.from(track.querySelectorAll('.product-card'));
+    const total      = cards.length;
+
+    let current = 0; // always card-index based
+
+    function getPerView () {
+      if (window.innerWidth <= 560) return 1;
+      if (window.innerWidth <= 900) return 2;
+      return 3;
+    }
+
+    function getStep () {
+      // On mobile (perView=1) step one card at a time; otherwise step by perView
+      const pv = getPerView();
+      return pv === 1 ? 1 : pv;
+    }
+
+    function getMaxIndex () {
+      const pv = getPerView();
+      // last position where we can show a full set without going past total
+      return total - pv;
+    }
+
+    function getCardWidth () {
+      return cards[0].getBoundingClientRect().width + 18; // card + gap
+    }
+
+    /* Build dots — one dot per step position */
+    function buildDots () {
+      dotsWrap.innerHTML = '';
+      const step  = getStep();
+      const maxI  = getMaxIndex();
+      const count = Math.ceil((maxI + 1) / step) + (maxI % step !== 0 ? 0 : 0);
+      // simpler: number of dot positions
+      const dotCount = Math.ceil(total / getPerView());
+      for (let i = 0; i < dotCount; i++) {
+        const d = document.createElement('button');
+        d.className = 'dot';
+        d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+        d.addEventListener('click', () => {
+          goTo(i * getStep());
+        });
+        dotsWrap.appendChild(d);
+      }
+      updateDots();
+    }
+
+    function updateDots () {
+      const step = getStep();
+      const dotIdx = Math.round(current / step);
+      document.querySelectorAll('.dot').forEach((d, i) => {
+        d.classList.toggle('active', i === dotIdx);
+      });
+    }
+
+    function goTo (idx) {
+      const maxI  = getMaxIndex();
+      current     = Math.max(0, Math.min(idx, maxI));
+      const offset = current * getCardWidth();
+      track.style.transform = `translateX(-${offset}px)`;
+
+      updateDots();
+
+      /* progress */
+      const pct  = maxI === 0 ? 100 : (current / maxI) * 100;
+      progress.style.width = pct + '%';
+
+      /* buttons */
+      btnPrev.disabled = current === 0;
+      btnNext.disabled = current >= maxI;
+    }
+
+    btnPrev.addEventListener('click', () => goTo(current - getStep()));
+    btnNext.addEventListener('click', () => goTo(current + getStep()));
+
+    /* Auto-advance */
+    function startTimer () {
+      return setInterval(() => {
+        const maxI = getMaxIndex();
+        goTo(current < maxI ? current + getStep() : 0);
+      }, 4500);
+    }
+    let timer = startTimer();
+
+    /* Pause on hover */
+    track.addEventListener('mouseenter', () => clearInterval(timer));
+    track.addEventListener('mouseleave', () => { timer = startTimer(); });
+
+    /* Touch swipe */
+    let startX = 0;
+    track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend',   e => {
+      const dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) > 40) goTo(dx < 0 ? current + getStep() : current - getStep());
+    });
+
+    /* Resize */
+    window.addEventListener('resize', () => {
+      current = 0;
+      buildDots();
+      goTo(0);
+    });
+
+    /* Init */
+    buildDots();
+    goTo(0);
+  })();
+    </script>
+  </body>
+</html>
